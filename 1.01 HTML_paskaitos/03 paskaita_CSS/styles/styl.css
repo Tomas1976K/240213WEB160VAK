@@ -1,0 +1,47 @@
+
+/* Fonto/ Srifoto importavimas   */
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Protest+Riot&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap')
+
+html {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: hsl(115, 43%, 37%);
+    background-color: #9e9e6c;
+    font-family: Yellow 'Times New Roman', Times, serif;
+}
+
+h1:hover {
+    background-color: brown;
+    text-align: center;
+}
+
+p {
+    color: blue;
+    background-color: khaki;
+}
+/* ID selektorius svarbiausias. Jo svoris didziausias */
+#svarbus-sarasas{
+    background-color: hsl(16, 100%, 66%);
+}
+/* Klase selektorius jo svoris mazesnis */
+.raudonas_tekstas {
+    color: hsl(348, 33%, 53%);
+}
+
+.sarasas {
+    background-color: blue;
+}
+/* Elemento pavadinimo selektorius maziausiai svarbus. Jo svoris maziausias */
+ul {
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+/* Tam kad i nustatoma ploti ieitu bordingaas ir padingas */
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+
+    color: hsl(219, 79%, 66%);
+    border: 5px solid rgb(34, 63, 117) ;
+    padding: 3px;
+    text-align: center; 
+
+
+}
+
+div.gallery {
+    border: 10px solid green ;
+    padding: 30px;
+    text-align: center;
+
+    /* Blokinio elemento iscentravimas per viduri */
+    /* width: 900px; */
+    width: 1000px;
+    /* width: 70%; */
+    
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+
+}
+
+div.gallery img {
+    /* border-color: hsl(0, 66%, 47%);
+    border-width: 10px;
+    border-style: solid;
+
+    border-top-color: hsl(0, 66%, 47%);
+    border-top-width: 10px;
+    border-top-style: solid; */
+/* 
+    border-top: red 10px solid;
+    border-bottom: 10px dasher red; */
+    border: 10px dashed blue;
+    padding: 20px 0px 20px 0px;
+    background-color: red;
+    margin: 30px 0 30px 0;
+    width: calc (50% - 80px) 
+
+
+}

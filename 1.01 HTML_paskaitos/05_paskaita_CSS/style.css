@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #6f6219;
+}
+
+p.ribotas-plotis {
+    width: 400px;
+}
+
+p.ribotas-plotis span {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    background-color: yellow;
+    display: inline-block;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.prekes {
+    display: flex;
+    justify-content: space-between;
+}
