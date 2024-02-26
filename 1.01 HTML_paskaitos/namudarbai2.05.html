@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anketa</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid rgb(36, 31, 31);
+        }
+    </style>
+</head>
+
+<body>
+    <h1></h1>
+
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Jūsų informacija</legend>
+            <label for="fmane">Vardas:</label>
+            <input type="text" id="fmane" name="fname"><br><br>
+            <label for="lname">Pavardė:</label>
+            <input type="text" id="lmane" name="lname"><br><br>
+        </fieldset>
+    </form>
+
+    <form action="/action_page.php">
+
+        <fieldset>
+            <legend>Klausimai</legend>
+            <p><label for="w3review">Kaip sužinojote apie mus?</label>
+                <select name="tinklalapis" id="Google">
+                    <option value="Google">Google</option>
+                </select>
+            </p>
+            <br><br>
+
+            <span>Ar apsilankysite vėl?</span>
+
+            <br><br>
+
+            <label for="action">Taip</label>
+            <input name="gender" id="action" type="radio" value="taip">
+
+            <label for="other">Ne</label>
+            <input name="gender" id="other" type="radio" value="ne">
+
+            <label for="other">Galbūt</label>
+            <input name="gender" id="other" type="radio" value="galbut">
+
+            <br><br>
+
+            <!-- kuris variantas tinkamesnis aprašyti šitą kodo dalį -->
+            <label for="more">Ką manote apie kursą?</label><br>
+            <textarea name="more" id="more" cols="50" rows="5">Rašykite viską ką galvojate
+            </textarea>
+
+            <br><br>
+
+
+            <!-- <p><label for="w3review">Ka manote apie kursa?</label></p>
+                <textarea id="w3review" name="w3review" rows="4" cols="50">Rasykite viska ka galvojete</textarea> -->
+
+            <span>Pažymėkite programavimo žymėjimo kalbas, su kuriomis esate susipažinę</span>
+
+            <br><br>
+
+            <label for="vehicle1">C &#8742</label>
+            <input type="checkbox" id="vehicle1" name="gender" value="C#">
+            <label for="vehicle2">Java</label>
+            <input type="checkbox" id="vehicle2" name="gender" value="java">
+            <label for="vehicle3">PHP</label>
+            <input type="checkbox" id="vehicle3" name="gender" value="php">
+
+            <br>
+
+            <label for="vehicle4">HTML</label>
+            <input type="checkbox" id="vehicle4" name="gender" value="html">
+            <label for="vehicle5">CSS</label>
+            <input type="checkbox" id="vehicle5" name="gender" value="css">
+            <label for="vehicle6">JavaScript</label>
+            <input type="checkbox" id="vehicle6" name="gender" value="javascript">
+
+            <br>
+
+            <label for="vehicle7">Python</label>
+            <input type="checkbox" id="vehicle7" name="gender" value="python">
+            <label for="vehicle8">Ruby</label>
+            <input type="checkbox" id="vehicle8" name="gender" value="ruby">
+
+            <br><br>
+
+            <input type="submit" value="Siųsti">
+
+
+
+        </fieldset>
+
+    </form>
+
+
+</body>
+
+</html>
